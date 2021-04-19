@@ -79,3 +79,54 @@ h1, h2, h3 ,h4 ,h5 {
 .hero {
 	background-color: var(--primary-1);
 }
+
+.topbar {
+	display: flex;
+	  justify-content: space-between;
+	  padding-left: 123px;
+}
+.logo {
+	color: white;
+	font-size: 40px
+}
+
+.tabs {
+	color: white;
+	float: right;
+
+}
+
+.subtitle {
+	color: white;
+	margin-left: 123px;
+}
+
+.content {
+	display: flex;
+	margin: 123px;
+	
+}
+
+.main {
+	color: white;
+	
+}
+
+.info {
+	color: white;
+	margin-right: 300px;
+}
+
+.button1 {
+	
+}
+.button2 {
+	border-color: black;
+	color: white;
+}
+
+@media (min-width: 376px) {
+	.hero {
+		
+	}
+}
