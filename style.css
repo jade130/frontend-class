@@ -76,29 +76,40 @@ h1, h2, h3 ,h4 ,h5 {
 	width: 100%; 
 }
 
+@media (max-width 375px) {
+	.wrap {
+		margin left: 10px;
+	}
+}
 .hero {
 	background-color: var(--primary-1);
 }
 
 .topbar {
-	display: flex;
+	  display: flex;
 	  justify-content: space-between;
 	  padding-left: 123px;
 }
 .logo {
-	color: white;
+	color: var(--text-white);
 	font-size: 40px
+	padding-top: 10px;
 }
 
 .tabs {
-	color: white;
+	color: var(--text-white);
 	float: right;
+	font-family: DM Sans;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-right: 50px;
 }
 
 .subtitle {
-	color: white;
+	color: var(--text-white);
 	margin-left: 123px;
 	font-family: sans;
+	margin-top: 50px;
 }
 
 .content {
@@ -107,26 +118,36 @@ h1, h2, h3 ,h4 ,h5 {
 }
 
 .main {
-	color: white;
+	color: var(--text-white);
+	margin-top: -60px;
+	font-size: 72px;
 }
 
 .img {
-	margin-top: -270px;
-	max-width: 100%;
+	margin-top: -170px;
+	width: 100%;
 	height: auto;
 }
 
-.info {
-	color: white;
-	margin-right: 300px;
+.description {
+	color: var(--text-white);
+	font-family: DM Sans;
+	font-weight: bold;
+	margin: -100px 0 50px 123px;
 }
 
 .button {
-	color: white;
+	color: var(--text-white);
+	font-weight: bold;
 }
 
-@media (min-width: 376px) {
-	.hero {
-		
-	}
+.button2 {
+	background-color: var(--primary-2);
+	border-radius: 5px;
+	color: var(--text-white);
+	font-family: DM Sans;
+	font-weight: bold;
+	margin-left: 123px;
+	padding: 10px;
 }
+
