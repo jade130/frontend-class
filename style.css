@@ -76,11 +76,6 @@ h1, h2, h3 ,h4 ,h5 {
 	width: 100%; 
 }
 
-@media (max-width 375px) {
-	.wrap {
-		margin left: 10px;
-	}
-}
 .hero {
 	background-color: var(--primary-1);
 }
@@ -89,20 +84,28 @@ h1, h2, h3 ,h4 ,h5 {
 	  display: flex;
 	  justify-content: space-between;
 	  padding-left: 123px;
+	  
 }
 .logo {
 	color: var(--text-white);
 	font-size: 40px
-	padding-top: 10px;
+	
 }
+
+/* @media screen and (max-width 375px) {
+	.logo {
+		font-weight: bold;
+	}
+} */
+
 
 .tabs {
 	color: var(--text-white);
 	float: right;
 	font-family: DM Sans;
 	font-weight: bold;
-	padding-top: 10px;
-	padding-right: 50px;
+	padding: 20px 20px 0 10px;
+	
 }
 
 .subtitle {
@@ -134,11 +137,14 @@ h1, h2, h3 ,h4 ,h5 {
 	font-family: DM Sans;
 	font-weight: bold;
 	margin: -100px 0 50px 123px;
+	
 }
 
-.button {
+.button1 {
 	color: var(--text-white);
 	font-weight: bold;
+	font-family: DM sans;
+	margin: -75px 60px 0 -300px;
 }
 
 .button2 {
@@ -148,6 +154,8 @@ h1, h2, h3 ,h4 ,h5 {
 	font-family: DM Sans;
 	font-weight: bold;
 	margin-left: 123px;
+	margin-bottom: 70px;
 	padding: 10px;
+	width: 170px;
 }
 
