@@ -87,16 +87,16 @@ a {
 	margin-right: 20px;
 }
 
+@media (max-width: 640px) {
+	.menu {
+		display:none;
+	}
+}
+
 .link {
 	color: var(--text-white);
 	font-weight: bold;
 	padding: 20px;
-}
-
-@media (max-width: 640px) {
-	.tabs {
-		display:none;
-	}
 }
 
 .subtitle {
@@ -119,6 +119,12 @@ a {
 	object-fit: contain;
 }
 
+@media (max-width: 640px) {
+	.img {
+		max-width: none;
+	}
+}
+
 .description {
 	margin-bottom: 40px;
 	max-width: 370px;
@@ -133,6 +139,10 @@ a {
 	width: 170px;
 }
 
+@media (max-width: 640px){
+	.sign.up {
+	}
+}
 .container {
 	max-width: 50%;
 }
