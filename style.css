@@ -74,12 +74,29 @@ a {
 	align-items: center;
 	display: flex;
 	padding: 16px 0;
-	flex-grow: 1;
+	flex: 1 0 100%;
 }
 
 .logo {
 	color: var(--text-white);
 	font-size: var(--h3-size);
+}
+
+@media (max-width: 640px) {
+	.logo {
+		font-size: var(--h4-size);
+	}
+}
+
+.menu-button {
+	display: none;
+}
+
+@media (max-width: 640px) {
+	.menu-button {
+	display: block;
+	margin-left: auto; 
+	}
 }
 
 .menu {
@@ -107,6 +124,12 @@ a {
 	text-transform: uppercase;
 }
 
+@media (max-width: 640px) {
+	.subtitle {
+		margin-top: 31px;
+	}
+}
+
 .main {
 	font-size: var(--h1-size);
 	margin: 0;
@@ -127,7 +150,9 @@ a {
 
 @media (max-width: 640px) {
 	.img {
-	display: grid
+	max-width: 100%;
+	align-self: flex-start;
+	
 	}
 }
 
@@ -154,7 +179,7 @@ a {
 
 @media (max-width: 640px){
 	.sign.up {
-		display: 
+		display: none;
 	}
 }
 .container {
