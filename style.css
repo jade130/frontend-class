@@ -6,6 +6,8 @@
 	--primary-1: #434CCC;
 	--primary-2: #F1B505;
 	
+	--primary-3: #FFDD78;
+	
 	--h1-size: 72px;
 	--h1-line: 80px;
 	
@@ -68,6 +70,7 @@ a {
 .hero {
 	background-color: var(--primary-1);
 	color: var(--text-white);
+	height: 768px;
 }
 
 .topbar {
@@ -200,4 +203,44 @@ a {
 	margin-bottom: 54px;
 	padding: 10px;
 	width: 170px;
+}
+
+.part2 {
+	background-color: var(--primary-3);
+	color: var(--text-black);
+	height: 768px;
+}
+
+.heading {
+	font-size: var(--h2-size);
+	text-align: center;
+}
+
+.subheading {
+	font-size: var(--text-big-size);
+	margin-left: 440px;
+	text-align: center;
+	width: 570px;	
+}
+
+.rectangle {
+	background: var(--text-white);
+	box-sizing: border-box;
+	border-radius: 5px;
+	filter: drop-shadow(0 2px 4px 0 #000000, 29.7%);
+	height: 416px;
+	width: 370px;
+}
+
+.boximg {
+	padding: 64px 125px;
+}
+
+.boxwrap {
+	padding: 30px;
+}
+
+.titlebox {
+	font-size: var(--h4-size);
+	padding-bottom: 15px
 }
