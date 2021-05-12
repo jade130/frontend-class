@@ -146,12 +146,14 @@ a {
 .img {
 	max-width: 50%;
 	object-fit: contain;
+	margin-top: 150px;
 }
 
 @media (max-width: 640px) {
 	.img {
 	max-width: 100%;
 	align-self: flex-start;
+	margin-top: -40px;
 	
 	}
 }
@@ -195,7 +197,7 @@ a {
 	background-color: var(--primary-2);
 	border-radius: 5px;
 	font-weight: bold;
-	margin-bottom: 24px;
+	margin-bottom: 54px;
 	padding: 10px;
 	width: 170px;
 }
