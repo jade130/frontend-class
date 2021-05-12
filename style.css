@@ -183,7 +183,7 @@ a {
 	}
 }
 
-button:hover {
+.sign.up:hover {
 	color: var(--primary-1);
 	background: var(--text-white);
 }
