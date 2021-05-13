@@ -189,7 +189,7 @@ a {
 }
 
 .sign.up:hover {
-	color: var(--primary-1);
+	color: blue;
 	background: var(--text-white);
 }
 .container {
@@ -214,20 +214,24 @@ a {
 .heading {
 	font-size: var(--h2-size);
 	text-align: center;
+	padding-top: 60px;
 }
 
 .subheading {
-	font-size: var(--text-big-size);
 	margin-left: 440px;
 	text-align: center;
 	width: 570px;	
+}
+
+.textbox {
+	display: flex;
+	padding: 36px 0 0 135px;
 }
 
 .rectangle {
 	background: var(--text-white);
 	box-sizing: border-box;
 	border-radius: 5px;
-	filter: drop-shadow(0 2px 4px 0 #000000, 29.7%);
 	height: 416px;
 	width: 370px;
 }
@@ -244,3 +248,16 @@ a {
 	font-size: var(--h4-size);
 	padding-bottom: 15px
 }
+
+.information {
+}
+
+hr {
+	opacity: 10.11%;
+	width: 338px;
+}
+
+.learn {
+	margin-top: 10px;
+}
+
