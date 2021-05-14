@@ -232,7 +232,6 @@ a {
 }
 
 .rectangle {
-	align-content: center;
 	background: var(--text-white);
 	box-sizing: border-box;
 	border-radius: 5px;
@@ -241,7 +240,7 @@ a {
 }
 
 .boximg {
-	padding: 64px 125px;
+	padding: 
 }
 
 .boxwrap {
@@ -250,6 +249,10 @@ a {
 
 .titlebox {
 	font-size: var(--h4-size);
+}
+
+.information {
+	padding-top: 15px;
 }
 
 hr {
@@ -264,5 +267,7 @@ hr {
 	display: flex;
 	color: var(--text-black);
 	justify-content: flex-start;
+	padding-left:32px;
+	padding-top: 18px;
 }
 
