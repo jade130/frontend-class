@@ -178,6 +178,7 @@ a {
 	box-sizing: border-box;
 	border-radius: 5px;
 	font-weight: bold;
+	transition: all 2s ease-out;
 	height: 48px;
 	width: 170px;
 }
@@ -214,21 +215,24 @@ a {
 .heading {
 	font-size: var(--h2-size);
 	text-align: center;
-	padding-top: 60px;
+	padding: 60px 0 29px 0;
 }
 
 .subheading {
-	margin-left: 440px;
+	font-size: var(--text-big-size);
+	margin-left: 430px;
 	text-align: center;
 	width: 570px;	
 }
 
 .textbox {
 	display: flex;
-	padding: 36px 0 0 135px;
+	justify-content: space-evenly;
+	padding-top: 36px;
 }
 
 .rectangle {
+	align-content: center;
 	background: var(--text-white);
 	box-sizing: border-box;
 	border-radius: 5px;
@@ -246,18 +250,19 @@ a {
 
 .titlebox {
 	font-size: var(--h4-size);
-	padding-bottom: 15px
-}
-
-.information {
 }
 
 hr {
 	opacity: 10.11%;
-	width: 338px;
+	width: 338px
 }
 
-.learn {
-	margin-top: 10px;
+.arrow {
+	padding-left: 7px;
+}
+.part2__link {
+	display: flex;
+	color: var(--text-black);
+	justify-content: flex-start;
 }
 
