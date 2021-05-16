@@ -173,7 +173,7 @@ a {
 	}
 }
 
-.sign.up {
+.sign-up {
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	box-sizing: border-box;
 	border-radius: 5px;
@@ -184,14 +184,14 @@ a {
 }
 
 @media (max-width: 640px){
-	.sign.up {
+	.sign-up {
 		display: none;
 	}
 }
 
-.sign.up:hover {
+.sign-up:hover {
 	color: blue;
-	background: var(--text-white);
+	background-color: var(--text-white);
 }
 .container {
 	max-width: 50%;
@@ -240,7 +240,7 @@ a {
 }
 
 .boximg {
-	padding: 
+	padding: 50px 50px 54px 125px;
 }
 
 .boxwrap {
