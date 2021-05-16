@@ -255,15 +255,12 @@ a {
 	padding-top: 15px;
 }
 
-hr {
-	opacity: 10.11%;
-	width: 338px
-}
-
 .arrow {
 	padding-left: 7px;
 }
 .part2__link {
+	border-top: 0.1px solid;
+	margin-left: 32px;
 	display: flex;
 	color: var(--text-black);
 	justify-content: flex-start;
