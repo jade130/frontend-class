@@ -306,6 +306,10 @@ h1, h2, h3, h4, h5 {
 	height: 768px;
 }
 
+.grey__wrap {
+	max-width: calc((100%/12)*10);
+}
+
 .grey__starter {
 	padding-top: 63px;
 	padding-bottom: 21px;
@@ -323,7 +327,6 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 	max-width: 570px;	
 	margin: 0 auto;
-	
 }
 
 .picture_text {
@@ -332,7 +335,6 @@ h1, h2, h3, h4, h5 {
 
 .grey__textheader {
 	font-size: var(--h3-size);
-	max-width: 323px;
 	padding-bottom: 37px;
 }
 

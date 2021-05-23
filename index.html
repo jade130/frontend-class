@@ -8,9 +8,11 @@
 		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=DM+Serif+Display&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="reboot.css"/>
 		<link rel="stylesheet" href="style.css"/>
+		
+	<script src="script.js"></script>
 	</head>
 	<body>
-		<img src="images/overlay.jpg" style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 1440px; opacity: 0.5">
+		<img src="images/overlay.jpg" id="overlay" style=" display: none; position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 1440px; opacity: 0.5; Z-index: 100; pointer-events: none;">
 		<section class="hero">
 			<div class="u-wrap u-side-side">
 				
@@ -91,7 +93,7 @@
 		</section>
 		
 		<section class="grey">
-			<div class="u-wrap">
+			<div class="u-wrap grey__wrap">
 				<div class="grey__starter u-signpost">aliquip</div>
 				<div class="grey__heading u-serif">Graece postea</div>
 				<div class="grey__subheading">
@@ -107,13 +109,12 @@
 							Dicat eripuit accumsan ad est. Facer facilisi ius ei, ea has cetero argumentum, vel at fugit temporibus. Deseruisse definitionem his et, an has veri integre abhorreant, nam alii epicurei et.
 						</div>
 						
-						<a class="grey__link" href="/learn">
-							Learn more
-							<img class="grey__arrow" src="/images/arrow.svg" alt="arrow">
-						</a>
-				</div>
-					
-							
+					<a class="grey__link" href="/learn">
+						Learn more
+						<img class="grey__arrow" src="/images/arrow.svg" alt="arrow">
+					</a>
+				</div>		
+			</div>				
 			
 			
 		</section>
