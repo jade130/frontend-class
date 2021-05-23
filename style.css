@@ -8,6 +8,8 @@
 	
 	--primary-3: #FFDD78;
 	
+	--primary-4: #F5F6FB;
+	
 	--h1-size: 72px;
 	--h1-line: 80px;
 	
@@ -225,7 +227,6 @@ a {
 @media (max-width 640px) {
 	.heading {
 		font-size: var(--h3-size);
-		
 	}
 }
 
@@ -297,5 +298,9 @@ a {
 	background-color: var(--primary-4);
 	color: var(--text-black);
 	height: 768px;
+}
+
+.subtitle_.subtitle {
+	margin-left: 100px;
 }
 
