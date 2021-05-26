@@ -12,7 +12,9 @@
 	<script src="script.js"></script>
 	</head>
 	<body>
-		<img src="images/overlay.jpg" id="overlay" style=" display: none; position: absolute; left: 50%; top: 0; transform: translateX(-50%); width: 1440px; opacity: 0.5; Z-index: 100; pointer-events: none;">
+		
+		
+		<img srcset="images/overlay-375.jpg 375w, images/overlay-1440.jpg" sizes="(max-width: 640px) 375px, 1440px" src="images/overlay-1440.jpg" id="overlay" alt="Frontend Class background" style="display: none; position: absolute; left: 50%; top: 0; transform: translateX(-50%); max-width: 1440px; opacity: 0.5; z-index: 100; pointer-events: none">
 
 		<section class="hero">
 			<div class="u-wrap u-side-side">
@@ -32,7 +34,7 @@
 						<a class="hero__link" href="/contact">Contact</a>
 					</nav>
 					
-					<button class="hero__sign-up">Sign Up</button>
+					<button class="hero__sign-up">Sign up</button>
 				</div>
 				
 				<div class="hero__container">
