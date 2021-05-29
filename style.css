@@ -219,12 +219,6 @@ h1, h2, h3, h4, h5 {
 	padding: 13px 56px;
 }
 
-@media (max-width: 640px){
-	.hero_explore {
-		
-	}
-}
-
 .yellow {
 	background-color: var(--primary-3);
 	color: var(--text-black);
@@ -285,7 +279,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .yellow__boximg {
-	margin: 0 auto 40px;
+	margin: 0 auto -11px;
 }
 
 .yellow__titlebox {
@@ -294,10 +288,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .yellow__information {
-	margin-bottom: 25px;
-	padding-top: 15px;
+	font-size: var(--text-grey-size);
+	margin-bottom: 12px;
+	padding: 8px 2px;
 }
-
+o
 .yellow__arrow {
 	padding-left: 7px;
 }
@@ -307,7 +302,7 @@ h1, h2, h3, h4, h5 {
 	display: flex;
 	font-weight: bold;
 	margin-right: -30px;
-	padding-top: 18px;
+	padding: 26px 2px;
 }
 .grey {
 	background-color: var(--primary-4);
@@ -338,13 +333,14 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-.picture_text {
-	display: flex;
-}
-
 .grey__textheader {
 	font-size: var(--h3-size);
 	padding-bottom: 37px;
+}
+
+.grey__information {
+	font-size: var(--text-grey-size);
+	
 }
 
 .grey__arrow {
@@ -357,3 +353,8 @@ h1, h2, h3, h4, h5 {
 	margin-right: -30px;
 	padding-top: 18px;
 }
+
+.picture_text {
+	display: block;
+}
+
