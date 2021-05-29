@@ -149,13 +149,13 @@ h1, h2, h3, h4, h5 {
 .hero__main {
 	font-size: var(--h1-size);
 	margin: 0;
-	margin-bottom: 33px;
-	line-height: var(--h1-line);
+	margin-bottom: 33px;	line-height: var(--h1-line);
 }
 
 @media (max-width: 640px) {
 	.hero__main {
 		font-size: var(--h2-size);
+		line-height: var(--h3-line);
 		width: 300px;
 	}
 }
@@ -184,6 +184,7 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 640px) {
 	.hero__description {
 		width: 500px;
+		padding-top: 16px;
 	}
 }
 
