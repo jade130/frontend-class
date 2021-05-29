@@ -307,7 +307,7 @@ o
 .grey {
 	background-color: var(--primary-4);
 	color: var(--text-black);
-	height: 768px;
+	padding-bottom: 80px;
 }
 
 .grey__wrap {
@@ -338,10 +338,6 @@ o
 	padding-bottom: 37px;
 }
 
-.grey__information {
-	font-size: var(--text-grey-size);
-	
-}
 
 .grey__arrow {
 	padding-left: 7px;
@@ -350,8 +346,7 @@ o
 	color: var(--text-black);
 	display: flex;
 	font-weight: bold;
-	margin-right: -30px;
-	padding-top: 18px;
+	padding: 18px 0 42px;	
 }
 
 .picture_text {
