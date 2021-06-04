@@ -338,7 +338,6 @@ o
 	padding-bottom: 37px;
 }
 
-
 .grey__arrow {
 	padding-left: 7px;
 }
@@ -351,5 +350,11 @@ o
 
 .picture_text {
 	display: block;
+	margin: 16px;
+}
+
+.grey__information {
+	color: grey;
+	
 }
 
