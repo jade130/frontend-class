@@ -149,7 +149,8 @@ h1, h2, h3, h4, h5 {
 .hero__main {
 	font-size: var(--h1-size);
 	margin: 0;
-	margin-bottom: 33px;	line-height: var(--h1-line);
+	margin-bottom: 33px;	
+	line-height: var(--h1-line);
 }
 
 @media (max-width: 640px) {
@@ -311,7 +312,7 @@ o
 }
 
 .grey__wrap {
-	max-width: calc((100%/12)*10);
+	max-width: 1000px;
 }
 
 .grey__starter {
@@ -349,12 +350,22 @@ o
 }
 
 .picture_text {
-	display: block;
+	display: flex;
 	margin: 16px;
 }
 
+.picture_text:nth-of-type(odd) .grey__img{
+	order:1
+}
 .grey__information {
 	color: grey;
 	
+}
+.grey__container {
+	flex: 0 0 50%;
+}
+
+.grey__img {
+	flex: 0 0 50%;
 }
 
