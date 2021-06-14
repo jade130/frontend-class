@@ -105,6 +105,11 @@ h1, h2, h3, h4, h5 {
 	}
 }
 
+@media (max-width: 640px){
+	.menu {
+		
+	}
+}
 .hero__menu-button {
 	display: none;
 }
@@ -142,7 +147,7 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 640px) {
 	.hero__subtitle {
 		margin-top: 20px;
-		margin-left: -2px;
+		
 	}
 }
 
@@ -156,8 +161,9 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 640px) {
 	.hero__main {
 		font-size: var(--h2-size);
-		line-height: var(--h3-line);
+		line-height: var(--h2-line);
 		width: 300px;
+		margin-top: -18px;
 	}
 }
 
@@ -170,9 +176,10 @@ h1, h2, h3, h4, h5 {
 
 @media (max-width: 640px) {
 	.hero__img {
-	max-width: 100%;o
+	max-width: 100%;
 	align-self: flex-start;
-	margin-top: -40px;
+	margin-top: -36px;
+	margin-left: -3px;
 	}
 }
 
@@ -186,7 +193,8 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 640px) {
 	.hero__description {
 		width: 500px;
-		padding-top: 16px;
+		margin-top: -14px;
+		margin-bottom: 39px;
 	}
 }
 
@@ -221,6 +229,12 @@ h1, h2, h3, h4, h5 {
 	padding: 13px 56px;
 }
 
+@media (max-width: 640px) {
+	.hero__explore {
+		margin-top: -16px;
+	}
+}
+
 .yellow {
 	background-color: var(--primary-3);
 	color: var(--text-black);
@@ -237,7 +251,7 @@ h1, h2, h3, h4, h5 {
 	text-align: center;
 }
 
-@media (max-width 640px) {
+@media (max-width: 640px) {
 	.yellow__heading {
 		font-size: var(--h3-size);
 	}
@@ -346,6 +360,7 @@ h1, h2, h3, h4, h5 {
 .grey__arrow {
 	padding-left: 7px;
 }
+
 .grey__link {
 	color: var(--text-black);
 	display: flex;
