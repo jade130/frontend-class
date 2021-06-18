@@ -254,6 +254,7 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 640px) {
 	.yellow__heading {
 		font-size: var(--h3-size);
+		margin-top: -86px;
 	}
 }
 
@@ -269,6 +270,7 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 640px) {
 	.yellow__subheading {
 		width: 340px;
+		margin: 4px;
 	}
 }
 
@@ -284,15 +286,22 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 640px) {
 	.yellow__rectangle {
 		flex: none;
-		margin-bottom: 16px;
-		margin-left: 30px;
-		max-width: 370px;
+		margin-top: -6px;
+		margin-left: 1px;
+		max-width: 345px;
 	}
 }
 
 .yellow__rectangle + .yellow__rectangle {
 	margin-left: 30px
+}
 
+@media(max-width: 640px){
+	.yellow__rectangle + .yellow__rectangle {
+		margin-left: 1px;
+		max-width: 349px;
+		margin-top: -6px;
+	}
 }
 
 .yellow__boximg {
@@ -329,39 +338,47 @@ h1, h2, h3, h4, h5 {
 	padding-bottom: 80px;
 }
 
-.grey__wrap {
+.about__wrap {
 	max-width: 1000px;
 }
 
-.grey__starter {
+.about__starter {
 	padding-top: 63px;
 	padding-bottom: 21px;
+	padding-left: 6px;
 	text-align: center;
 }
 
-.grey__heading {
+.about__heading {
 	font-size: var(--h2-size);
 	padding-bottom: 29px;
 	text-align: center;
+	margin-top: -4px;
 }
 
-.grey__subheading {
+.about__subheading {
+	font-size: var(--text-big-size);
+	line-height: var(--text-big-line);
 	padding-bottom: 110px;
 	text-align: center;
 	max-width: 570px;	
 	margin: 0 auto;
+	margin-top: -8px;
 }
 
-.grey__textheader {
+.about__textheader {
 	font-size: var(--h3-size);
-	padding-bottom: 37px;
-}
+	line-height: var(--h3-line);
+	padding-bottom: 40px;
+	margin-left: 15px;
+	margin-top: 4px;
+	}
 
-.grey__arrow {
+.about__arrow {
 	padding-left: 7px;
 }
 
-.grey__link {
+.about__link {
 	color: var(--text-black);
 	display: flex;
 	font-weight: bold;
@@ -373,18 +390,18 @@ h1, h2, h3, h4, h5 {
 	margin: 16px;
 }
 
-.picture_text:nth-of-type(odd) .grey__img{
+.picture_text:nth-of-type(odd) .about__img{
 	order:1
 }
-.grey__information {
+.about__information {
 	color: grey;
 	
 }
-.grey__container {
+.about__container {
 	flex: 0 0 50%;
 }
 
-.grey__img {
+.about__img {
 	flex: 0 0 50%;
 }
 
