@@ -249,7 +249,7 @@ h1, h2, h3, h4, h5 {
 @media (max-width: 640px) {
 	.yellow__heading {
 		font-size: var(--h3-size);
-		margin-top: -86px;
+		margin-top: -84px;
 	}
 }
 
@@ -309,11 +309,18 @@ h1, h2, h3, h4, h5 {
 	padding-bottom: 8px;
 }
 
+@media(max-width: 640px){
+	.yellow__titlebox {
+		margin-top: 10px;
+	}
+}
+
 .yellow__information {
 	font-size: var(--text-grey-size);
 	line-height: 1.5;
 	margin-bottom: 15px;
 	padding: 8px 2px;
+	min-width: 300px;
 }
 
 .yellow__arrow {
