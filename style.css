@@ -446,3 +446,22 @@ h1, h2, h3, h4, h5 {
 	flex: 0 0 50%;
 }
 
+.xxx {
+	background-color: var(--primary-1);
+	color: var(--text-white); 
+}
+
+.xxx__boxtitle {
+	padding-top: 63px;
+	padding-bottom: 21px;
+	padding-left: 50%;
+	text-align: center;
+}
+
+.xxx__boxheading {
+	font-size: var(--h2-size);
+	padding-bottom: 29px;
+	text-align: center;
+	margin-top: -4px;
+}
+
