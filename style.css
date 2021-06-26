@@ -416,12 +416,18 @@ h1, h2, h3, h4, h5 {
 	margin-left: -16px;
 }
 
-.picture_text {
+.about__picture {
 	display: flex;
-	margin: 16px 0;
+	max-width: calc(100% + 8%);
 }
 
-.picture_text:nth-of-type(odd) .about__img{
+@media (min-width: 641px) {
+	   .about__picture {
+		  max-width: none;
+	   }
+	}
+
+.about__picture:nth-of-type(odd) .about__img{
 	order:1
 
 }
