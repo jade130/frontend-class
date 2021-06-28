@@ -385,17 +385,13 @@ h1, h2, h3, h4, h5 {
 	line-height: var(--h3-line);
 	padding-bottom: 40px;
 	margin-left: 15px;
-	margin-top: 4px;
+	margin-top: 19px;
 }
 
-.about__textheader2 {
-	font-size: var(--h3-size);
-	line-height: var(--h3-line);
-	padding-bottom: 40px;
-	margin-left: -15px;
-	margin-top: -29px;
+.about__picture:nth-of-type(odd) .about__textheader{
+	margin-top: 174px;
+	margin-left: 1px;
 }
-
 
 .about__arrow {
 	padding-left: 6px;
@@ -405,14 +401,10 @@ h1, h2, h3, h4, h5 {
 	color: var(--text-black);
 	display: flex;
 	font-weight: bold;
-	padding: 18px 15px;
+	padding: 18px 16px;
 }
 
-.about__link2 {
-	color: var(--text-black);
-	display: flex;
-	font-weight: bold;
-	margin-top: 42px;
+.about__picture:nth-of-type(odd) .about__link{
 	margin-left: -16px;
 }
 
@@ -429,21 +421,21 @@ h1, h2, h3, h4, h5 {
 
 .about__picture:nth-of-type(odd) .about__illustration{
 	order: 1;
-
+	gap: 31px;
+	margin-top: 148px;
+	margin-left: 9px;
 }
 .about__information {
 	color: grey;
 	font-size: var(--text-grey-size);
 	line-height: 24px;
-	margin: -5px 0 24px 15px;
+	margin: -3px 0 23px 15px;
 }
 
-.about__information2 {
-	color: grey;
-	font-size: var(--text-grey-size);
-	line-height: 24px;
-	margin: -1px 0 0 -16px;
+.about__picture:nth-of-type(odd) .about__information {
+	margin-left: 0;
 }
+
 .about__container {
 	flex: 0 0 50%;
 }
